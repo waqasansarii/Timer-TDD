@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App com 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+    data-testid="custom-element"
+  >
+    <div>
+      <div>
+        <h1>
+          Timer App
+        </h1>
+      </div>
+      <div
+        id="clockdiv"
+      >
+        <div>
+          <span
+            class="hours"
+            data-testid="value"
+          >
+            00
+          </span>
+          <div
+            class="smalltext"
+          >
+            Hours
+          </div>
+        </div>
+        <div>
+          <span
+            class="minutes"
+            data-testid="value"
+          >
+            00
+          </span>
+          <div
+            class="smalltext"
+          >
+            Minutes
+          </div>
+        </div>
+        <div>
+          <span
+            class="seconds"
+            data-testid="value"
+          >
+            0
+          </span>
+          <div
+            class="smalltext"
+          >
+            Seconds
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          data-testid="main-div"
+        >
+          <div
+            class="btn_div"
+          >
+            <button
+              class="start"
+            >
+              start
+            </button>
+            <button
+              class="stop"
+            >
+              stop
+            </button>
+            <button
+              class="reset"
+            >
+              reset
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

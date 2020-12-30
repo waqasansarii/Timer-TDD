@@ -1,0 +1,66 @@
+
+/* .hours,.mins,.seconds{
+    display: inline-block;
+    border: 2px saddlebrown  solid;
+    width: 150px;
+    height: 80px;
+    font-size: 3.2em;
+    text-align: center;
+    box-shadow: 5px 5px 10px  ;
+    border-radius: 8px;
+    font: outline;
+} */
+h1{
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+  
+  #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #clockdiv > div{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+  }
+  .hours,.minutes,.seconds{
+    padding: 20px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+  }
+  
+  .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  .btn_div{
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .start,.stop,.reset{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 30px;
+   margin: 10px;
+   /* border-radius: 5px; */
+   /* box-shadow: 0px 0px 5px rgb(89, 122, 89); */
+  }
+  .start:hover,.stop:hover,.reset:hover{
+     background-color: lightgreen;
+     border: 2px seagreen solid;
+  }
+  .start:active,.stop:active,.reset:active{
+    /* background-color: lightgreen; */
+    transform: translate(1px,2px);
+ }
