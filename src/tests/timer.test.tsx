@@ -1,6 +1,5 @@
 import React from 'react'
 import { fireEvent, render } from '@testing-library/react'
-import * as ReactDOM from 'react-dom'
 import Timer from '../component/timer'
 import { act } from 'react-dom/test-utils'
 
