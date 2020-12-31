@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`reset 1`] = `
-<button
-  class="stop"
->
-  stop
-</button>
-`;
